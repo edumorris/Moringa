@@ -1,0 +1,115 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+body {
+	background: #1ecbe1;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px;
+	color: #e1341e;
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 20px;
+	border-bottom: 5px solid white;
+}
+
+.about_cafe {
+	display: block;
+	align-content: center;
+}
+
+.titles {
+	width: 60%;
+	text-align: center;
+	margin: 50px auto 50px auto;
+	font-size: 40px;
+	color: #e1341e;
+	font-weight: bold;
+	border-bottom: 3px solid white;
+	border-radius: 25%;
+}
+
+#about_drury {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	font-size: 24px;
+}
+
+.the_menu {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.titles #menu {
+	padding-top: 20px;
+}
+
+#menu_items {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: rgba(0 ,0, 0, .2);
+	border-radius: 100%;
+}
+
+.what_food {
+	width: 400px;
+	height: auto;
+	margin: 10px 10px 10px 10px;
+}
+
+.item_image {
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+
+.menu_item_description {
+	text-align: center;
+	background: rgba(255, 255, 255, .4);
+	width: 350px;
+}
+
+.item_name {
+	font-family: systemui;
+	font-weight: bold;
+	font-size: 35px;
+	color: #891ee1;
+}
+
+.price {
+	font-family: cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	color: #891ee1;
+}
+
+
+footer {
+	margin: 50px 0 0 0;
+	bottom: 0;
+	text-align: right;
+	font-size: 30px;
+	padding-right: 100px;
+	background-color: black;
+	color: #1ecbe1;
+	height: 50px;
+}
+
+footer p {
+	padding-top: 10px;
+}

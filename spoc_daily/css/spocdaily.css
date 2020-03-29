@@ -1,0 +1,48 @@
+html {
+	background-color: rgb(1, 173, 78);
+}
+
+main {
+	background-color: rgb(237, 237, 237);
+	overflow: scroll;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.news {
+	float: left;
+	width: 65%;
+}
+
+.column {
+	float: right;
+	width: 30%;
+	padding: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#one {
+	float: left;
+	height: 200px;
+	width: 300px;
+	margin: 0 10px 0 0;
+}
+
+#two {
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+#three {
+	width: 100%;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	text-align: justify;
+}

@@ -1,0 +1,54 @@
+/*Provided CSS*/
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+time {
+  border-style: dashed none dashed none;
+  display: block;
+}
+h1 {
+  font-size: 4em;
+  font-family: Georgia, sans-serif;
+  color: rgb(71, 114, 232);
+  text-shadow: 3px 1px black;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin: 0;
+  font-family: georgia, sans-serif;
+  font-size: 1.3em;
+}
+.content {
+  margin: 0 0 0 10px;
+  /*box-shadow: 0 0 20px 0px #888888;*/
+}
+
+.first {
+  margin: 10px;
+}
+img {
+  max-height: 200px;
+}
+p {
+  margin-top: 5px;
+  font-size: 0.9em;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.column p {
+  font-family: times;
+  font-size: 0.8em;
+}
+
+a {
+  font-weight: 900;
+}
+a:hover {
+  color: red;
+}
+footer {
+  height: 10px;
+  border-top: 1px solid;
+}

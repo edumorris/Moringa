@@ -1,0 +1,82 @@
+img {
+	width: max-width;
+	height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+	margin: 0 auto;
+  	padding: 10px 0;
+  	margin-right: 0%;
+}
+
+nav > ul {
+	text-align: right;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	padding: 18px;
+  	margin-right: 0;
+  	text-transform: uppercase;
+  	display: block;
+  	font-weight: bold;
+  	color: black;
+}
+
+nav>ul>li>a:hover {
+	background-color: rgba(0, 0, 0);
+	color: white;
+	font-weight: bold;
+}
+
+#country {
+	box-shadow: 2px 2px 5px black;
+	height: 500px;
+	width: auto;
+	float: left;
+	margin: 0 auto 20px auto;
+}
+
+#game {
+	margin: 20px auto 20px auto;
+}
+
+h2 {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+}
+
+img.images {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.games {
+	width: 50%;
+	margin: 0 auto;
+}
+
+figure img {
+
+}
+
+figcaption {
+	text-align: center;
+}
+
+#instructions {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	background: rgba(255, 255, 240, 1);
+}

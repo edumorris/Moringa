@@ -1,0 +1,76 @@
+img {
+	width: max-width;
+	height: 100%;
+}
+
+body {
+	background: transparent;
+}
+
+nav {
+	margin: 0 auto;
+  	padding: 10px 20px;
+  	margin-right: 0%;
+  	font-size: 20px;
+  	background-color: skyblue;
+  	top: 0;
+}
+
+nav > ul {
+	text-align: right;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	padding: 18px;
+  	margin-right: 0;
+  	text-transform: uppercase;
+  	display: block;
+  	font-weight: bold;
+  	color: black;
+}
+
+nav>ul>li>a:hover {
+	text-decoration: underline;
+}
+
+
+.container {
+	background-image: url('https://untoldinternational.org/wp-content/uploads/2019/01/ws_ghana_flag_1920x1200-780x437.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	text-align: center;
+	background-size: cover;
+}
+
+#about, #games, #ampe {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+img#ghana_image {
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: rgba(255, 250, 250, 0.7);
+	height: 50px;
+}
+
+p, ol>li {
+	font-size: 20px;
+	width: 70%;
+	margin: 0 auto;
+}

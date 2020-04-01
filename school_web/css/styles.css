@@ -1,0 +1,41 @@
+.container {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flearning&psig=AOvVaw0ZoijID1Z1HC6vJNEuqQHt&ust=1585728203317000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCMtef3w-gCFQAAAAAdAAAAABAD');
+	background-repeat: no-repeat;
+}
+
+body {
+	font-size: 1.3em;
+	font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+	margin: 0 auto;
+	padding: .1% 0;
+	margin-right: 0;
+}
+
+nav > ul {
+	text-align: right;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul > li > a {
+	text-transform: uppercase;
+	padding: 1%;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.733);
+}
+
+nav > ul > li > a:hover {
+	box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+	background-color: rgba(107, 93, 84, 0.678);
+	color: rgba(0, 35, 122, 0.7);
+}
